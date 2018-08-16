@@ -42,6 +42,9 @@ gem 'bcrypt', '~> 3.1.12'
 gem 'search_object', '1.2.1'
 gem 'search_object_graphql', '0.1'
 
+gem 'react-rails', '~> 2.4.7'
+gem 'webpacker', '~> 3.5.5'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
