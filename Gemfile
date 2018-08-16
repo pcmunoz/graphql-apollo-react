@@ -39,6 +39,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'graphql', '1.8.7'
 gem 'bcrypt', '~> 3.1.12'
 
+gem 'search_object', '1.2.1'
+gem 'search_object_graphql', '0.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
